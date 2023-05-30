@@ -5,14 +5,26 @@ import { ExternalOutput } from "./counters/ExternalOutput";
 
 export const App = () => {
   return (
-    <div className={"root"}>
-      <RedCounter>
-        <BlueCounter>
-          <YellowCounter />
-        </BlueCounter>
-      </RedCounter>
+    <div>
+      <p className={"text-center"}>
+        View the source on{" "}
+        <a
+          href={"https://github.com/abir-taheer/react-atomic-variables-demo"}
+          target={"_blank"}
+        >
+          Github
+        </a>
+      </p>
 
-      <ExternalOutput />
+      <div className={"root"}>
+        <RedCounter>
+          <BlueCounter>
+            <YellowCounter />
+          </BlueCounter>
+        </RedCounter>
+
+        <ExternalOutput />
+      </div>
     </div>
   );
 };
