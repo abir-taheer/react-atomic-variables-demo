@@ -1,4 +1,4 @@
-import { useValue } from "../variable";
+import { useValue } from "react-atomic-variables";
 import { RedCounterVariable } from "./RedCounter";
 import { BlueCounterVariable } from "./BlueCounter";
 import { YellowCounterVariable } from "./YellowCounter";

@@ -1,4 +1,4 @@
-import { AtomicVariable, useVariable } from "../variable";
+import { AtomicVariable, useVariable } from "react-atomic-variables";
 import { ReactNode } from "react";
 
 export const YellowCounterVariable = new AtomicVariable(0);
